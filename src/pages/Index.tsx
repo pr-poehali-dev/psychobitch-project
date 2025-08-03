@@ -38,16 +38,16 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="gradient-bg py-20 relative overflow-hidden">
+      <section className="bg-background py-20 relative overflow-hidden">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="lg:w-1/2 mb-10 lg:mb-0 animate-fade-in">
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+              <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
                 Ты не психопат.
                 <br />
                 <span className="text-gradient">Ты просто лучше других.</span>
               </h1>
-              <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
+              <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
                 Раскрой свою тёмную сторону и научись использовать её для достижения целей. 
                 87% наших клиентов уже манипулируют окружением.
               </p>
@@ -62,11 +62,12 @@ const Index = () => {
             </div>
             <div className="lg:w-1/2 flex justify-center">
               <div className="floating">
-                <div className="w-80 h-80 relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-purple-600/30 rounded-full blur-3xl"></div>
-                  <div className="relative z-10 w-full h-full flex items-center justify-center">
-                    <Icon name="Brain" size={120} className="text-primary" />
-                  </div>
+                <div className="w-96 h-96 relative">
+                  <img 
+                    src="/img/77fa0419-22f7-4904-9d49-fc86b52718bc.jpg" 
+                    alt="Stylish demon woman illustration"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </div>
             </div>
