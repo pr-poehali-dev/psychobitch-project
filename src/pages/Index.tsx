@@ -64,7 +64,7 @@ const Index = () => {
               <div className="floating">
                 <div className="w-96 h-96 relative">
                   <img 
-                    src="/img/8c2685f1-dbe7-47cb-9c29-8436816de66b.jpg" 
+                    src="/img/5bd88bc9-ebaf-482e-8f22-872af80352c7.jpg" 
                     alt="Minimalist demon woman illustration"
                     className="w-full h-full object-contain"
                   />
