@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 224 71% 4%;
 
-    --primary: 259 94% 40%;
+    --primary: 259 94% 25%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 220 14% 96%;
@@ -24,7 +24,7 @@
     --muted: 220 14% 96%;
     --muted-foreground: 220 9% 46%;
 
-    --accent: 259 94% 40%;
+    --accent: 259 94% 25%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
@@ -32,18 +32,18 @@
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 259 94% 40%;
+    --ring: 259 94% 25%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 224 71% 4%;
-    --sidebar-primary: 259 94% 40%;
+    --sidebar-primary: 259 94% 25%;
     --sidebar-primary-foreground: 0 0% 98%;
     --sidebar-accent: 220 14% 96%;
     --sidebar-accent-foreground: 224 71% 4%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 259 94% 40%;
+    --sidebar-ring: 259 94% 25%;
   }
 
   .dark {
@@ -129,11 +129,11 @@
   }
 
   .gradient-bg {
-    background: linear-gradient(135deg, #6d28d9 0%, #7c3aed 50%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #4c1d95 0%, #5b21b6 50%, #6d28d9 100%);
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, #6d28d9, #7c3aed);
+    background: linear-gradient(135deg, #4c1d95, #5b21b6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
